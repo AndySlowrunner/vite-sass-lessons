@@ -1,0 +1,13 @@
+$types: (
+    "primary": #F07F2E,
+    "success": #82C43C,
+    "danger": #FC5A5A,
+    "warning": #A461D8,
+    "info": #4E75FF,
+);
+
+@each $key, $values in $types{
+    .alert-#{$key} {
+        background-color: #{$values};
+    }
+}
