@@ -56,6 +56,30 @@
           transform: translate(-50%, -50%);
 }
 
+body {
+  background-color: #d98328;
+}
+
+.alert-primary {
+  background-color: #F07F2E;
+}
+
+.alert-success {
+  background-color: #82C43C;
+}
+
+.alert-danger {
+  background-color: #FC5A5A;
+}
+
+.alert-warning {
+  background-color: #A461D8;
+}
+
+.alert-info {
+  background-color: #4E75FF;
+}
+
 /*=== END ===*/
 body {
   min-width: 100vw;
